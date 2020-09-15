@@ -4,14 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CEP</title>
+    <link rel="stylesheet" href="Cep.css">
 </head>
 <body>
-    <head id="titulo">
-
-    </head>
+    <header id="titulo">        
+        <h1 id="titu">Consultar de Cep</h1>
+    </header>
     <section id="corpo">
-
-    </section>
-    
+        <div class="g">  
+            <div>Cep</div>          
+            <input type="text" id="Cep" placeholder="EX: 00000-000" maxlength="8">
+        </div>         
+         
+        <div class="g">
+            <div>Logradouro</div>
+            <input type="text" id="logradouro" class="n" placeholder="EX: Praça da Sé">
+        </div>
+        <div class="g">
+            <div>Bairro</div>
+            <input type="text" id="bairro" class="n" placeholder="EX: Sé">
+        </div>
+        <div class="g">
+            <div>Localidade</div>
+            <input type="text" id="localidade" class="n" placeholder="EX: São Paulo">
+        </div>
+        <div id="con">
+            <input type="button" id="botao" value="Consultar" onclick="Consultar()">
+        </div>
+    </section>    
 </body>
+<script src="cep.js"></script>
 </html>

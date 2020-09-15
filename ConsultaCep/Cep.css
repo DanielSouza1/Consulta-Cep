@@ -1,0 +1,39 @@
+body{
+ background: rgb(246, 222, 4);   
+
+}
+header{
+    height: 67px;
+    width: auto;
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-top: -21px;
+    background: rgb(22, 22, 236);
+    text-align: center;
+    padding: 3px;
+}
+section{
+    margin: auto;
+    background: rgb(110, 110, 238);
+    margin-top: 10px;
+    height: auto;
+    width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+}
+div.g{
+    margin-left: 60px;    
+}
+input{
+    height: 20px;    
+}
+input.n{
+    width: 260px;
+}
+div#con{
+    text-align: center;
+}
+input#botao{
+    margin-top: 10px;    
+
+}
