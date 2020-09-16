@@ -6,7 +6,16 @@ imagem.setAttribute('src', '/gps.png')
 titulo.innerHTML = 'Consulta Cep'
 imagem.style.height = '70px'
 logo.appendChild(imagem)
-
+titulo.addEventListener('mouseenter', entrar)
+titulo.addEventListener('mouseout', sair)
+function entrar(){
+    titulo.style.color = '#EEC900'
+    titulo.style.border ='double'   
+}
+function sair(){
+    titulo.style.color = '#FFFF00'
+    titulo.style.border = 'double'
+}
 
 function Consultar(){
     let cep1 = document.getElementById('Cep');  

@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Hanalei&family=Luckiest+Guy&family=Ranchers&display=swap');
-body{
- background: #fed700;   
-
+body{    
+   background-image: url(/maps3.png); 
 }
 header{
     display: block;
-    height: 70px;
+    height: 69px;
     width: auto;
     margin-left: -9px;
     margin-right: -9px;
-    margin-top: -21px;
+    margin-top: -22px;
     background: rgb(22, 22, 236);
     text-align: center;
     padding: 3px;
@@ -29,21 +28,23 @@ div#logo{
 }
 section{
     margin: auto;
-    background: rgb(110, 110, 238);
+    background:  rgb(22, 22, 236);
     margin-top: 10px;
     height: auto;
-    width: 400px;
+    width: 550px;
     padding: 40px;
     border-radius: 10px;
 }
 div.g{
-    margin-left: 60px;    
+    margin-left: 100px;    
 }
 input{
-    height: 20px;    
+    height: 30px; 
+
 }
 input.n{
-    width: 260px;
+    width: 340px;
+    height: 30px;
 }
 div#con{
     text-align: center;
@@ -51,4 +52,8 @@ div#con{
 input#botao{
     margin-top: 10px;    
 
+}
+div.ti{
+    font-size: 18px;
+    color:  rgb(255, 238, 7);
 }
