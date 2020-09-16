@@ -3,20 +3,9 @@ var logo = document.getElementById('logo')
 var imagem = document.createElement('img')
 imagem.setAttribute('src', 'foto')
 imagem.setAttribute('src', '/gps.png')
-titulo.innerHTML = 'Consulta Cep'
 imagem.style.height = '70px'
 logo.appendChild(imagem)
-titulo.addEventListener('mouseenter', entrar)
-titulo.addEventListener('mouseout', sair)
-function entrar(){
-    titulo.style.color = '#EEC900'
-    titulo.style.border ='double'   
-}
-function sair(){
-    titulo.style.color = '#FFFF00'
-    titulo.style.border = 'double'
-}
-
+titulo.style.color = '#FFFF00'
 function Consultar(){
     let cep1 = document.getElementById('Cep');  
     cep1.focus() 
@@ -36,16 +25,10 @@ function Consultar(){
                 let logradouro = document.getElementById('logradouro').value = endereço.logradouro
                 let bairro = document.getElementById('bairro').value = endereço.bairro
                 let local = document.getElementById('localidade').value = endereço.localidade
-            }
-     
-
-            
+            }          
             
             
         }
-        
-
-
         request.send();    
 
     }
