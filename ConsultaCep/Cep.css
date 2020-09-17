@@ -19,9 +19,8 @@ h1#titu{
     font-size: 30px;
     margin-right: 14px;
     margin-top: 11px;
-    
+    color:#FFFF00;    
 }
-
 div#logo{
     position: absolute;
     left: 850px;
@@ -36,8 +35,11 @@ section{
     padding: 40px;
     border-radius: 10px;
 }
-div.g{
-    margin-left: 100px;    
+div.cx{
+    margin-left: 100px;  
+      
+    
+     
 }
 input{
     height: 30px; 
@@ -46,8 +48,10 @@ input{
 input.n{
     width: 340px;
     height: 30px;
+    background: white;
+    font-size: 16px;    
 }
-div#con{
+div#bot{
     text-align: center;
 }
 input#botao{
