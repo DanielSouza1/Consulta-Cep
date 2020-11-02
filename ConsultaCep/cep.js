@@ -1,7 +1,7 @@
 var logo = document.getElementById('logo')
 var imagem = document.createElement('img')
 imagem.setAttribute('src', 'foto')
-imagem.setAttribute('src', '/gps.png')
+imagem.setAttribute('src', 'gps.png')
 imagem.style.height = '70px'
 logo.appendChild(imagem)
 function Consultar(){
